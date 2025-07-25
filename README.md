@@ -67,14 +67,29 @@ Haz un commit con este archivo.
 
 ---
 
-### ✅ 3. Resolución asistida por IA (30%)
+### ✅ 3. Resolución asistida por IA y Scripting en Python (30%) 🐍
 
-* Crea un archivo llamado `solucion-ai.md`
+Usa una inteligencia artificial (como ChatGPT, GitHub Copilot, Claude, etc.) para resolver este reto:
 
-* Usa una inteligencia artificial (como ChatGPT, GitHub Copilot, Perplexity, etc.) para resolver este reto:
+* Crea un archivo llamado `conteo_txt.py` en la carpeta mi-proyecto.
 
-  > "Escribe un script en Bash que cuente cuántos archivos `.txt` hay en el directorio actual y liste sus nombres."
+* Este script debe:
 
+1. Contar cuántos archivos `.txt` hay en el directorio actual (sin usar os.system, solo Python nativo).
+
+2. Imprimir sus nombres.
+
+3. Guardar esa lista en un nuevo archivo llamado `lista_txt.txt`
+
+📌 Requisitos técnicos:
+
+* Usar la librería os o pathlib de Python
+
+* El script debe funcionar si se ejecuta así:
+
+ ```bash
+python conteo_txt.py
+ ```
 * Explica:
 
   * Cómo formulaste la pregunta a la IA
@@ -82,6 +97,7 @@ Haz un commit con este archivo.
   * Cómo verificaste que el código funcionaba
 
 ---
+
 
 ### ✅ 4. Buenas prácticas y Pull Request (20%)
 
@@ -109,7 +125,6 @@ Haz un commit con este archivo.
 
 Si quieres mostrar más habilidades, puedes hacer alguna de estas tareas adicionales:
 
-* Crear un script `automate.sh` que genere 5 archivos `.txt` y luego ejecute el script del reto
 * Crear un archivo `index.html` con un perfil básico tuyo en HTML/CSS
 * Grabar un video (máx 2 minutos) explicando cómo hiciste la prueba (puedes subirlo a YouTube o Drive y dejar el link en el PR)
 
@@ -120,7 +135,7 @@ Si quieres mostrar más habilidades, puedes hacer alguna de estas tareas adicion
 Cuando termines:
 
 1. Verifica que tu Pull Request esté creado y que incluya todos los archivos
-2. Manda un correo a `contacto@nubelombia.com` o responde al mensaje donde recibiste esta prueba para confirmar tu entrega
+2. Manda un correo a `nubelombia@gmail.com` o responde al mensaje donde recibiste esta prueba para confirmar tu entrega
 
 ---
 
@@ -130,7 +145,8 @@ Cuando termines:
 | --------------------------------- | ------ |
 | Uso de Git y Bash                 | 25%    |
 | Comprensión de ramas y flujo Git  | 25%    |
-| Interacción efectiva con IA       | 30%    |
+| Interacción efectiva con IA y 
+| Scripting en Python               | 30%    |
 | Organización y presentación final | 20%    |
 
 ---
