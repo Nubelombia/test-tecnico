@@ -1,6 +1,5 @@
 ---
 
-````markdown
 # 🧪 Prueba Técnica - Nubelombia
 
 ¡Bienvenido/a a la prueba técnica de Nubelombia!
@@ -139,6 +138,3 @@ Cuando termines:
 ¡Gracias por participar!
 Equipo de **Nubelombia 🌩️**
 
-```
-
----
